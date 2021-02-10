@@ -1,0 +1,62 @@
+body{
+
+}
+
+.cup{
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    background: lightgreen;
+}
+.heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+    }
+    #heart:before,
+    #heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    #heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+.square{
+    width: 300px;
+    height: 500px;
+    background: green;  
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 100px;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+.handle{
+    width: 150px;
+    height: 100px;
+    background: green;
+    position: relative;
+    top: 10px;
+   left: 150px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+  
+.inline{
+    display: inline-block;
+}
