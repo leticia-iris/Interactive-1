@@ -18,6 +18,10 @@ p:hover {
 
 }
 
+.module {
+  cursor: url('hand.png'), auto;   
+}
+
 .cup{
     position: relative;
     width: 1000px;

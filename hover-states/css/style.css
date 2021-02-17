@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+	background: yellow;
+	transition: all 1000ms ease;
+}
+
+/* type */
+
+body{
+	font-family: 'Bodoni', sans-serif;
+}
+
+/* text */
+
+p {
+	font-size: 40px;
+	color: purple;
+}
+
+/* try uncommenting below to see text changes on hover */
+
+/*p:hover {
+	letter-spacing: 2px;
+}*/
+p:hover {
+	color: pink;
+	text-transform: lowercase;
+}
+
+/* 
+
+CSS shapes 
+https://css-tricks.com/the-shapes-of-css/
+
+*/
+
+.shape{
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+	position: relative;
+}
+
+/* try uncommenting below to see blur on hover */
+
+/*.shape:hover div {
+	filter: blur(10px);
+} */
+
+/* circles */
+.circle {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	background: purple;
+}
+
+.circle:hover {
+	filter: drop-shadow(16px 16px 20px red) invert(75%);
+	transform: scale(0.5) translate(-100%, -100%);
+}
+
+.oval {
+	width: 300px;
+	height: 100px;
+	background: purple;
+	border-radius: 150px / 50px;
+}
+
+.oval:hover {
+	transform: skew(30deg, 20deg);
+	filter: brightness(0.4);
+}
+
+.sliver {
+	width: 300px;
+	height: 40px;
+	background: purple;
+	border-radius: 150px / 20px;
+}
+
+
+/* square */
+
+.rect {
+	width: 40px;
+	height: 437px;
+	background: purple;
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+.rect:hover {
+	filter: hue-rotate(90deg);
+	filter: blur(10px);
+}
+
+/* stars */
+
+.star {
+	background: purple;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	text-align: center;
+
+	transform-origin: top left;
+	transform: scaleX(2) scaleY(4.25) translateX(10px) translateY(10px);
+}
+
+.star:hover {
+	filter: drop-shadow(16px 16px 20px blue);
+	transform: rotate(0.5turn);
+}
+
+.star:before,
+.star:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 80px;
+	width: 80px;
+	background: purple;
+}
+
+.star:before {
+	transform: rotate(30deg);
+}
+
+.star:after {
+	transform: rotate(60deg);
+}
