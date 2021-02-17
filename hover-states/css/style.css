@@ -53,6 +53,7 @@ https://css-tricks.com/the-shapes-of-css/
 	height: 300px;
 	border-radius: 150px;
 	background: purple;
+	position:fixed;
 }
 
 .circle:hover {
