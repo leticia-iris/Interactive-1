@@ -2,36 +2,33 @@ body{
 
 }
 
+* {
+	transition: all 1500ms ease;
+}
+
+p{
+	font-size: 40px;
+	color: green;
+}
+
+p:hover {
+	text-transform: lowercase;
+	color: darkgreen;
+	font-size: 44px;
+
+}
+
 .cup{
     position: relative;
     width: 1000px;
     height: 1000px;
     background: lightyellow;
 }
-.heart {
-      position: relative;
-      width: 100px;
-      height: 90px;
-    }
-    #heart:before,
-    #heart:after {
-      position: absolute;
-      content: "";
-      left: 50px;
-      top: 0;
-      width: 50px;
-      height: 80px;
-      background: red;
-      border-radius: 50px 50px 0 0;
-      transform: rotate(-45deg);
-      transform-origin: 0 100%;
-    }
-    #heart:after {
-      left: 0;
-      transform: rotate(45deg);
-      transform-origin: 100% 100%;
-    }
-.square{
+.cup:hover{
+    background: darkblue;
+}
+
+.body{
     width: 300px;
     height: 500px;
     background: green;  
@@ -42,8 +39,16 @@ body{
     position: absolute;
     top: 100px;
     left: 70px;
+    
+    cursor: url('hand.png'), auto;
 }
-.handle{
+
+.body:hover{
+    background: lightblue;
+    transform: translate(12px, 50%);
+}
+
+.top{
     width: 150px;
     height: 100px;
     background: lightgreen;
@@ -56,6 +61,10 @@ body{
     border-top-left-radius: 40px;
 }
 
+.top:hover{
+	transform: rotate(30deg);
+	background: white;
+}
   
 .inline{
     display: inline-block;
