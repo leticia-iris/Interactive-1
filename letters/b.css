@@ -1,0 +1,117 @@
+body{
+
+}
+
+.bounding-box{
+    position: relative;
+    width: 2000px;
+    height: 4000px;
+    background: white;
+}
+
+.astroke {
+    position: absolute;
+    background: linear-gradient(0deg, rgb(45 212 166 / 27%) 100%, rgba(255,199,0,1) 100%);
+}
+
+.a1 {
+    width: 30px;
+    height: 168px;
+    top: 151px;
+    left: 262px;
+}
+
+.a2 {
+    width: 30px;
+    height: 168px;
+    top: 290px;
+    left: 55px;
+}
+
+.a3 {
+    width: 30px;
+    height: 250px;
+    top: 251px;
+    left: 165px;
+    transform: rotate(56deg);
+}
+
+.a4 {
+    width: 30px;
+    height: 250px;
+    top: -29px;
+    left: 165px;
+    transform: rotate(123deg);
+}
+
+.a5 {
+    width: 30px;
+    height: 264px;
+    top: 96px;
+    left: 157px;
+    transform: rotate(56deg);
+}
+
+
+.bstroke {
+    position: absolute;
+    background: linear-gradient(0deg, rgb(45 212 166 / 55%) 100%, rgba(255,199,0,1) 100%);
+}
+
+.no1 {
+    width: 30px;
+    height: 421px;
+    top: 37px;
+    left: 500px;
+}
+
+.no2 {
+    width: 30px;
+    height: 250px;
+    top: 251px;
+    left: 610px;
+    transform: rotate(56deg);
+}
+
+.no3 {
+    width: 30px;
+    height: 150px;
+    top: 168px;
+    left: 707px;
+}
+
+.no4 {
+    width: 30px;
+    height: 250px;
+    top: 101px;
+    left: 610px;
+    transform: rotate(56deg);
+}
+
+.cstroke {
+    position: absolute;
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.c1 {
+    width: 30px;
+    height: 289px;
+    top: 174px;
+    left: 1000px;
+}
+
+.c2 {
+    width: 30px;
+    height: 250px;
+    top: 256px;
+    left: 1109px;
+    transform: rotate(56deg);
+}
+
+.c3 {
+    width: 30px;
+    height: 250px;
+    top: -8px;
+    left: 1097px;
+    transform: rotate(56deg);
+}
