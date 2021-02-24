@@ -4,7 +4,7 @@ body{
 
 .bounding-box{
     position: relative;
-    width: 2000px;
+    width: 4000px;
     height: 4000px;
     background: white;
 }
@@ -52,6 +52,239 @@ body{
     transform: rotate(56deg);
 }
 
+.cube {
+    position: absolute;
+    background: linear-gradient(0deg, rgb(45 212 166 / 27%) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cube1 {
+    width: 30px;
+    height: 300px;
+    top: 941px;
+    left: 290px;
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cube2{
+    width: 30px;
+    height: 300px;
+    top: 800px;
+    left: 55px;
+}
+
+.cube3{
+    width: 30px;
+    height: 300px;
+    top: 800px;
+    left: 550px;
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cube4{
+    width: 30px;
+    height: 317px;
+    top: 720px;
+    left: 419px;
+    transform: rotate(61deg);
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cube5{
+    width: 30px;
+    height: 299px;
+    top: 1008px;
+    left: 427px;
+    transform: rotate(61deg);
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cube6{
+    width: 30px;
+    height: 291px;
+    top: 732px;
+    left: 172px;
+    transform: rotate(122deg);
+}
+
+.cube7{
+    width: 30px;
+    height: 278px;
+    top: 1017px;
+    left: 166px;
+    transform: rotate(120deg);
+}
+
+.cube8{
+    width: 31px;
+    height: 292px;
+    top: 596px;
+    left: 174px;
+    transform: rotate(62deg);
+}
+
+.cube9{
+    width: 30px;
+    height: 304px;
+    top: 591px;
+    left: 425px;
+    transform: rotate(117deg);
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cubeb {
+    position: absolute;
+    background: linear-gradient(0deg, rgb(45 212 166 / 27%) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cubeb1{
+    width: 30px;
+    height: 572px;
+    top: 670px;
+    left: 1090px;
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cubeb2{
+    width: 30px;
+    height: 300px;
+    top: 800px;
+    left: 855px;
+}
+
+.cubeb3{
+    width: 30px;
+    height: 300px;
+    top: 800px;
+    left: 1350px;
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cubeb4{
+    width: 30px;
+    height: 317px;
+    top: 720px;
+    left: 1219px;
+    transform: rotate(61deg);
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cubeb5{
+    width: 30px;
+    height: 299px;
+    top: 1008px;
+    left: 1227px;
+    transform: rotate(61deg);
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cubeb6{
+    width: 30px;
+    height: 291px;
+    top: 732px;
+    left: 972px;
+    transform: rotate(122deg);
+}
+
+.cubeb7{
+    width: 30px;
+    height: 278px;
+    top: 1017px;
+    left: 966px;
+    transform: rotate(120deg);
+}
+
+.cubeb8{
+    width: 31px;
+    height: 292px;
+    top: 596px;
+    left: 974px;
+    transform: rotate(62deg);
+}
+
+.cubeb9{
+    width: 30px;
+    height: 304px;
+    top: 591px;
+    left: 1225px;
+    transform: rotate(117deg);
+}
+
+.cubec{
+    position: absolute;
+    background: linear-gradient(0deg, rgb(45 212 166 / 27%) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cubec1{
+    width: 30px;
+    height: 300px;
+    top: 942px;
+    left: 1790px;
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cubec2{
+    width: 30px;
+    height: 300px;
+    top: 800px;
+    left: 1555px;
+}
+
+.cubec3{
+    width: 30px;
+    height: 300px;
+    top: 800px;
+    left: 2050px;
+}
+
+.cubec4{
+    width: 30px;
+    height: 317px;
+    top: 720px;
+    left: 1919px;
+    transform: rotate(61deg);
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cubec5{
+    width: 30px;
+    height: 299px;
+    top: 1008px;
+    left: 1927px;
+    transform: rotate(61deg);
+    background: linear-gradient(0deg, rgb(45 212 166) 100%, rgba(255,199,0,1) 100%);
+}
+
+.cubec6{
+     width: 30px;
+    height: 291px;
+    top: 732px;
+    left: 1672px;
+    transform: rotate(122deg);
+}
+
+.cubec7{
+    width: 30px;
+    height: 278px;
+    top: 1017px;
+    left: 1666px;
+    transform: rotate(120deg);
+}
+
+.cubec8{
+    width: 31px;
+    height: 292px;
+    top: 596px;
+    left: 1674px;
+    transform: rotate(62deg);
+}
+
+.cubec9{
+     width: 30px;
+    height: 304px;
+    top: 591px;
+    left: 1925px;
+    transform: rotate(117deg);
+}
 
 .bstroke {
     position: absolute;
