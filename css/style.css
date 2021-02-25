@@ -1,4 +1,11 @@
+@font-face {
+  font-family: "Ribes-Black";
+  src: url("../assets/fonts/Ribes-Black.woff") format("woff"),
+       url("../assets/fonts/Ribes-Black.woff2") format("woff2");
+}
+
 body {
+	font-family: Ribes-Black;
 	background: pink;
 	color: purple;
 	font-size: 40px;
