@@ -2,24 +2,24 @@
 	margin: 0;
 	padding: 0;
 }
-
 @font-face {
-    font-family: 'Hasta Free';
-    src: url('../fonts/HastaFree-Regular.woff2') format('woff2'),
-        url('../fonts/HastaFree-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'MontserratSubrayada';
+	src: url('../fonts/MontserratSubrayada-Bold.woff') format("woff");
 }
 
 @font-face {
-	font-family: 'Higher Jump';
-	src: url('../fonts/Higher Jump.ttf') format('ttf');
+	font-family: 'GeostarFill';
+	src: url('../fonts/GeostarFill-Regular.woff') format("woff");
 }
 
 @font-face {
-	font-family: 'AchoneFont';
-	src: url('../fonts/AchoneFont.ttf') format('ttf');
+	font-family: 'PoiretOne';
+	src: url('../fonts/PoiretOne-Regular.woff') format("woff");
+}
+
+@font-face {
+	font-family: 'NewTegomin';
+	src: url('../fonts/NewTegomin-Regular.woff') format("woff");
 }
 
 body {
@@ -57,7 +57,7 @@ body {
     text-align: center;
     top: 40%;
     white-space: nowrap;
-    font-family:Montserrat Subrayada;
+    font-family:MontserratSubrayada;
     color: #ffffff;
 }
 .nav-search-label2{
@@ -81,7 +81,7 @@ body {
     white-space: nowrap;
     color: #ffffff;
     transform-origin:10px;
-    font-family:Montserrat Subrayada;
+    font-family:MontserratSubrayada;
 }
 
 #background {
@@ -124,7 +124,7 @@ body {
 	grid-column-end: 8;
 	background: none;
 	font-size: 90px;
-	font-family: Montserrat Subrayada;
+	font-family: MontserratSubrayada;
 	-webkit-box-reflect: below 0.9px linear-gradient(#0cff2a00, #ffffff9c);
 	line-height: 0.90em;
 	outline: none;
@@ -147,7 +147,7 @@ body {
 	font-size: 25px;
 	text-align: left;
 	padding: 10px;
-	font-family: Geostar Fill;
+	font-family: GeostarFill;
 	color: #c38979;
 }
 
@@ -159,7 +159,7 @@ body {
 	background: none;
 	font-size: 30px;
 	text-align: center;
-	font-family: PoiretOne-Regular;
+	font-family: PoiretOne;
 	color: #c38979;
 	filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
 	        drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
@@ -175,7 +175,7 @@ body {
 	font-size: 25px;
 	text-align: left;
 	padding: 10px;
-	font-family: Geostar Fill;
+	font-family: GeostarFill;
 	color: #9e534b;
 }
 
@@ -187,7 +187,7 @@ body {
 	background: none;
 	font-size: 30px;
 	text-align: center;
-	font-family: PoiretOne-Regular;
+	font-family: PoiretOne;
 	color: #9e534b;
 	filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
 	        drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
@@ -203,7 +203,7 @@ body {
 	font-size: 24px;
 	text-align: left;
 	padding: 10px;
-	font-family: Geostar Fill;
+	font-family: GeostarFill;
 	color: #650700;
 }
 
@@ -215,7 +215,7 @@ body {
 	background: none;
 	font-size: 30px;
 	text-align: center;
-	font-family: PoiretOne-Regular;
+	font-family: PoiretOne;
 	color: #650700;
 	filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
 	        drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
@@ -244,7 +244,7 @@ body {
 	font-size: 35px;
 	opacity: 100%;
 	z-index:1;
-	font-family: Geostar Fill;
+	font-family: GeostarFill;
 	color: #ceb091;
 	filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
 	        drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
@@ -258,8 +258,8 @@ body {
 	grid-column-end: 7;
 	background: none;
 	font-size: 20px;
-	font-family: New Tegomin;
-	color: #e6cabf;
+	font-family: NewTegomin;
+	color: #fff2ee;
 	padding: 15px;
 	z-index: 1;
 }
@@ -285,7 +285,7 @@ body {
 	background: none;
 	font-size: 35px;
 	z-index:1;
-	font-family:Geostar Fill;
+	font-family:GeostarFill;
 	color: #b0a079;
 	filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
 	        drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
@@ -299,8 +299,8 @@ body {
 	grid-column-end: 7;
 	background: none;
 	font-size: 20px;
-	font-family: New Tegomin;
-	color: #d8cbb0;
+	font-family: NewTegomin;
+	color: #f7f1e4;
 	padding: 15px;
 	z-index: 1;
 }
@@ -326,7 +326,7 @@ body {
 	background: none;
 	font-size: 35px;
 	z-index:1;
-	font-family: Geostar Fill;
+	font-family: GeostarFill;
 	color: #807858;
 	filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
 	        drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
@@ -340,8 +340,8 @@ body {
 	grid-column-end: 7;
 	background: none;
 	font-size: 20px;
-	font-family: New Tegomin;
-	color: #c5cab5;
+	font-family: NewTegomin;
+	color: #dce0d0;
 	padding: 15px;
 	z-index: 1;
 }
@@ -356,9 +356,11 @@ body {
 	rotate: 90deg;
 	width: 100%;
 	opacity: 20%;
-	z-index: 1;
+	z-index: 0;
 	object-fit: cover;
 	cursor: pointer;
+	padding: 15px;
+	margin: 0;
 }
 
 
@@ -371,9 +373,10 @@ body {
 	height: 100%;
 	width: 100%;
 	opacity: 30%;
-	z-index: 1;
+	z-index: 0;
 	object-fit: cover;
 	cursor: pointer;
+	padding: 15px;
 }
 
 #m {
@@ -385,9 +388,10 @@ body {
 	height: 100%;
 	width: 100%;
 	opacity: 30%;
-	z-index: 1;
+	z-index: 0;
 	object-fit: cover;
 	cursor: pointer;
+	padding: 15px;
 }
 #n {
 	grid-row-start: 33;
@@ -420,9 +424,7 @@ body {
 	padding: 15px;
 	font-size: 15px;
 	z-index: 1;
-	filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
-	        drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
-	        drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+	
 }
 
 #p {
@@ -435,9 +437,7 @@ body {
 	padding: 15px;
 	font-size: 15px;
 	z-index: 1;
-	filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
-	        drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
-	        drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
+	
 }
 
 .nav-search-label span {
@@ -447,7 +447,7 @@ body {
 	text-transform: uppercase;
 	animation: animate 2s ease-in-out infinite;
 	animation-delay: calc(0.1s * var(--i));
-	animation-play-state: paused;
+	animation-play-c38979state: paused;
 	filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3))
 	        drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2))
 	        drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.2));
@@ -474,7 +474,7 @@ li{
 }
 
 li a {
-	color: #ffffff;
+	color: #9e534b;
 	text-decoration: none;
 }
 /* uncomment below to adjust with a media query */

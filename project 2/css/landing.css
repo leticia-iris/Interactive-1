@@ -5,24 +5,20 @@
 
 
 @font-face {
-    font-family: 'Hasta Free';
-    src: url('../fonts/HastaFree-Regular.woff2') format('woff2'),
-        url('../fonts/HastaFree-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+	font-family: 'MontserratSubrayada';
+	src: url('../fonts/MontserratSubrayada-Bold.woff') format("woff");
 }
 
 @font-face {
-	font-family: 'Higher Jump';
-	src: url('../fonts/Higher Jump.ttf') format('ttf');
+	font-family: 'GeostarFill';
+	src: url('../fonts/GeostarFill-Regular.woff') format("woff");
 }
 
 @font-face {
-	font-family: 'AchoneFont';
-	src: url('../fonts/AchoneFont.ttf') format('ttf');
+	font-family: 'HastaFree';
+	src: url('../fonts/HastaFree-Regular.woff') format("woff");
+	src: url('../fonts/HastaFree-Regular.woff2') format("woff2");
 }
-
 
 
 #grid {
@@ -78,7 +74,7 @@ section h2 {
 	grid-column-end: 12;
 	background: none;
 	font-size: 6em;
-	font-family: Montserrat Subrayada;
+	font-family: MontserratSubrayada;
 	text-transform: uppercase;
 	z-index: 2;
 	transition: 3s;
@@ -123,7 +119,7 @@ section h3{
 	text-align: center;
 	filter: blur(30px);
 	cursor: pointer;
-	font-family: Geostar Fill;
+	font-family: GeostarFill;
 }
 
 li{
