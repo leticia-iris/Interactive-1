@@ -5,8 +5,9 @@
 }
 
 @font-face {
-  font-family: "Myopium";
-  src: url("../assets/fonts/Myopium.woff") format("woff")；
+  font-family: "SurfingCapital";
+  src: url("../assets/fonts/SurfingCapital.woff") format("woff"),
+  	   url("../assets/fonts/SurfingCapital.woff2") format("woff2");
 }
 
 body {
@@ -19,14 +20,14 @@ body {
 
 
 h1 {
-	font-family: Myopium;
+	font-family: SurfingCapital;
 	background: none;
 	color: #ff65ac;
 	font-size: 100px;
 }
 
 p {
-	font-family: Myopium;
+	font-family: Ribes-Black;
 	color: white;
 	font-size: 30px;
 }
