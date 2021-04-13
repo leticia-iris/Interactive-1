@@ -4,13 +4,41 @@
        url("../assets/fonts/Ribes-Black.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "Myopium";
+  src: url("../assets/fonts/Myopium.woff") format("woff")；
+}
+
 body {
-	font-family: Ribes-Black;
-	background: pink;
-	color: purple;
-	font-size: 40px;
+	background:linear-gradient( #fdbcbc85,#ff72a0);
+}
+
+#container {
+	margin: 50px;
+}
+
+
+h1 {
+	font-family: Myopium;
+	background: none;
+	color: #ff65ac;
+	font-size: 100px;
 }
 
 p {
-	color: yellow;
+	font-family: Myopium;
+	color: white;
+	font-size: 30px;
+}
+
+h3 {
+	font-family:Ribes-Black;
+	color: #00ffc4;
+}
+
+li {
+	list-style: none;
+	text-decoration: none;
+	font-family:Ribes-Black;
+	color: #00ffc4;
 }
