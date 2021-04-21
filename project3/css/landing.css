@@ -1,0 +1,41 @@
+.container
+{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container a
+{
+	position: relative;
+	width: 300px;
+	height: 75px;
+	margin: 10px;
+	font-size: 24px;
+	display: inline-flex;
+	justify-content: left;
+	align-items: left;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+.container a:hover
+{
+	color: #fff;
+}
+.container a:before
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: url(green.png);
+	background-size: cover;
+}
+.container a span
+{
+	position: relative;
+	z-index: 1;
+}
