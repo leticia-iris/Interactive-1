@@ -1,0 +1,77 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: 'CoalhandLukeTRIAL';
+	src: url('../founts/CoalhandLukeTRIAL.woff') format("woff");
+}
+
+body
+{
+	background-image: url(../yellowcover.jpg);
+	width: 100%;
+	height: 100vh;
+	font-family: CoalhandLukeTRIAL;
+
+}
+
+
+section
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background-image: url(../yellow.jpg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	clip-path: circle(0px at center center);
+}
+.container
+{
+	position: relative;
+	margin-top: 200vh;
+	background: none;
+	margin-left: 240px;
+	padding: 100px;
+	width: 1000px;
+	color: black;
+	font-size: 30px;
+}
+.container h1
+{
+	margin-bottom: 200px;
+}
+
+.innertext
+{
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	white-space: nowrap;
+	z-index: 1;
+	font-size: 40px;
+	text-align: center;
+	width: 100%;
+}
+.selector
+{
+	z-index: 2;
+}
+
+li{
+	list-style: none;
+
+}
+li a 
+{
+	font-size: 60px;
+	color: #fff0c1;
+	text-decoration: none;
+}
+

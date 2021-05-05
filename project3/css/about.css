@@ -1,0 +1,89 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: 'FingerPaint-Regular';
+	src: url('../founts/FingerPaint-Regular.woff') format("woff");
+}
+@font-face {
+	font-family: 'CoalhandLukeTRIAL';
+	src: url('../founts/CoalhandLukeTRIAL.woff') format("woff");
+}
+
+.background {
+	background-image: url(vangogh2.jpg);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	opacity: 90%;
+	z-index: -1;
+}
+
+section
+{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	min-width: 100vw;
+	font-family: CoalhandLukeTRIAL;
+}
+
+#grid {
+	width: 800px;
+	height: 900px;
+	border: 0px solid #ffdfdf;
+	background: none;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 0.5fr 1fr 0.5fr;
+	grid-gap: 10px;	
+}
+
+section.content 
+{
+	max-width: 80%;
+	background: black;
+}
+
+
+#letter
+{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	text-align: justify;
+	font-size: 30px;
+	color: white;
+	-webkit-background-clip: text;
+	mix-blend-mode: difference;
+}
+
+
+#link
+{
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	text-align: right;
+	font-size: 40px;
+	color: #4040a2;
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+
+}
+li a 
+{
+	font-family:FingerPaint-Regular;
+	color: #b8ffb8;
+	text-decoration: none;
+}

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<title>blue2</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="css/blue2.css">
+</head>
+<body>
+	<div class="background"></div>
+	<section>
+		<div class="content">
+			<div id="grid">
+				<div id="letter">
+					<p> Yesterday I saw around 6 paintings by Michel,2 how I wish you’d been there, sunken roads through sandy soil leading to a mill, or a man going home over the heath or sandy ground with a grey sky above, so simple and so fine. It seems to me that the pilgrims on their way to Emmaus3 saw nature as Michel does, I always think of them whenever I see one of his paintings.I saw these paintings at Durand-Ruel’s. There they have no fewer than 25 etchings after Millet, and the same number after Michel, and masses after Dupré and Corot and all other artists, to be had for 1 franc apiece. That’s tempting indeed. I couldn’t resist buying a couple after Millet:5 I bought the last 3 of The evening angelus,6 and my brother will of course receive one when the opportunity arises.I hear that Mr Iterson is coming to live at the Rooses’, he’s the youngest, I believe.7 Write again soon. Regards to everyone at the Rooses’ and to Mr and Mrs Tersteeg and to anyone who might ask after me, and in thought a handshake.</p>
+				</div>
+				<div id="link">
+					<li><a href="yellow.html"><span>Yellow</span></a></li>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+	<script>
+		function setup(){
+			createCanvas(windowWidth, windowHeight);
+		}
+		function draw(){
+			strokeWeight(50);
+			if (mouseIsPressed === true){
+				line(mouseX, mouseY, pmouseX, pmouseY)
+			}
+		}
+	</script>
+</body>
+</html>

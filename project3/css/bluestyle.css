@@ -7,29 +7,38 @@
 
 @font-face {
 	font-family: 'CoalhandLukeTRIAL';
-	src: url('../fonts/CoalhandLukeTRIAL.woff') format("woff");
+	src: url('../founts/CoalhandLukeTRIAL.woff') format("woff");
+}
+
+.background {
+	background-image: url(../iris.jpg);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+	z-index: -1;
 }
 
 section
 {
+	background-color: #91a9ff45;
 	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
 	min-width: 100vw;
-	background: blue;
 	font-family: CoalhandLukeTRIAL;
 }
 
 #grid {
-	width: 800px;
+	width: 1200px;
 	height: 700px;
 	border: 0px solid #ffdfdf;
 	background: none;
 	display: grid;
-	grid-template-columns: 1fr 2fr 0.5fr ;
-	grid-template-rows: 0.5fr 0.5fr 2fr 0.5fr;
+	grid-template-columns: 2fr 1fr 1fr ;
+	grid-template-rows: 0.3fr 2fr 2fr 0.7fr;
 	grid-gap: 10px;
 	
 }
@@ -40,36 +49,42 @@ section.content
 }
 
 
-#tittle
-{
-	grid-row-start: 2;
-	grid-row-end: 2;
-	grid-column-start: 1;
-	grid-column-end: 1;
-	text-align: right;
-	font-size: 20px;
-	color: #fff;
-}
-
-#letter
-{
-	grid-row-start: 3;
-	grid-row-end: 4;
-	grid-column-start: 2;
-	grid-column-end: 3;
-	text-align: left;
-	font-size: 30px;
-	color: #fff;
-}
-
 canvas
 {
+	background-image: url(../letter.jpg);
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	z-index: 1;
-	background: #fff;
 	mix-blend-mode: screen;
+}
+
+#blue2
+{
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	text-align: top;
+	font-size: 40px;
+	color: #4040a2;
+	z-index: 2;
+}
+
+.container a
+{
+	text-decoration: none;
+}
+
+
+li{
+	list-style: none;
+
+}
+li a 
+{
+	color: #5d62ff;
+	text-decoration: none;
 }
 
 

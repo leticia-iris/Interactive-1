@@ -1,30 +1,161 @@
+@font-face {
+	font-family: 'FingerPaint-Regular';
+	src: url('../founts/FingerPaint-Regular.woff') format("woff");
+}
+@font-face {
+	font-family: 'CoalhandLukeTRIAL';
+	src: url('../founts/CoalhandLukeTRIAL.woff') format("woff");
+}
+
+body
+{
+	margin: 0px;
+}
+
+
 .container
 {
-	min-height: 100vh;
+	position: absolute;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	min-height: 100vh;
+	min-width: 100vw;
+	background: none;
+	margin: 0;
 }
+.background {
+	background-image: url(../back.jpg);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	opacity: 1;
+	z-index: -1;
+}
+
+#grid {
+	width: 1100px;
+	height: 700px;
+	border: 0px solid #ffdfdf;
+	background: none;
+	display: grid;
+	grid-template-columns: 1.6fr 0.4fr 5fr;
+	grid-template-rows: 1fr 1.3fr 1.5fr 1.5fr 1.5fr 1fr 0.3fr;
+	grid-gap: 10px;
+	
+}
+
+#about
+{
+	grid-row-start: 5;
+	grid-row-end: 6;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	text-align: center;
+	font-size: 50px;
+	font-family:FingerPaint-Regular;
+	background: url(white.png);
+	background-size: 100% 100%;
+}
+#about :hover
+{
+	color: #fff0;
+}
+
+#green
+{
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	text-align: center;
+	font-size: 60px;
+	font-family:FingerPaint-Regular;
+	background: url(green.png);
+	background-size: 110% 120%;
+	rotate: 10deg;
+}
+
+#green li
+{
+	color: green;
+}
+
+#green :hover
+{
+	color: #fff0;
+}
+
+#blue
+{
+	color: blue;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	text-align: center;
+	font-size: 60px;
+	font-family:FingerPaint-Regular;
+	background: url(blue.png);
+	background-size: 100% 110%;
+}
+#blue :hover
+{
+	color: #fff0;
+}
+
+#yellow
+{
+	color: red;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	text-align: center;
+	font-size: 60px;
+	font-family:FingerPaint-Regular;
+	background: url(yellow.png);
+	background-size: 110% 100%;
+}
+#yellow :hover
+{
+	color: #fff0;
+}
+
+#tittle
+{
+	position: relative;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	text-align: bottom;
+	font-size: 165px;
+	font-family:CoalhandLukeTRIAL;
+}
+
+#mode
+{
+	grid-row-start: 6;
+	grid-row-end: 7;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	text-align: center;
+	font-size: 40px;
+	font-family:FingerPaint-Regular;
+	background: url(white.png);
+	background-size: 100% 100%;
+}
+
 
 .container a
 {
-	position: relative;
-	width: 300px;
-	height: 75px;
-	margin: 10px;
-	font-size: 24px;
-	display: inline-flex;
-	justify-content: left;
-	align-items: left;
 	text-decoration: none;
 	transition: 0.5s;
 }
 
-.container a:hover
-{
-	color: #fff;
-}
+
 .container a:before
 {
 	position: absolute;
@@ -39,3 +170,46 @@
 	position: relative;
 	z-index: 1;
 }
+
+li{
+	list-style: none;
+
+}
+li a 
+{
+	color: black;
+	text-decoration: none;
+}
+
+body.darkmode 
+{
+ background-image: url(../rose.jpg); 
+ color: #fff;
+--accent-color: none;
+}
+
+body.darkmode button
+{
+	background: none;
+ 	color: black;
+ 	border: none;
+ 	font-family:FingerPaint-Regular;
+ 	--accent-color: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1000px) {
+  body {
+  	color: #030390;
+  	--accent-color: none;
+  	font-size: 20px;
+     }
+  li a {
+  	font-size: 20px;
+  	color: #030390;
+  }
+  button{
+	color: #030390;
+	background: none;
+}
+
+
