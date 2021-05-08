@@ -135,19 +135,6 @@ body
 	font-family:CoalhandLukeTRIAL;
 }
 
-#mode
-{
-	grid-row-start: 6;
-	grid-row-end: 7;
-	grid-column-start: 1;
-	grid-column-end: 2;
-	text-align: center;
-	font-size: 40px;
-	font-family:FingerPaint-Regular;
-	background: url(white.png);
-	background-size: 100% 100%;
-}
-
 
 .container a
 {
@@ -181,21 +168,6 @@ li a
 	text-decoration: none;
 }
 
-body.darkmode 
-{
- background-image: url(../rose.jpg); 
- color: #fff;
---accent-color: none;
-}
-
-body.darkmode button
-{
-	background: none;
- 	color: black;
- 	border: none;
- 	font-family:FingerPaint-Regular;
- 	--accent-color: none;
-}
 
 @media screen and (min-width: 300px) and (max-width: 1000px) {
   body {

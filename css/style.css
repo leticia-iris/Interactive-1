@@ -1,50 +1,118 @@
 @font-face {
-  font-family: "Ribes-Black";
-  src: url("../assets/fonts/Ribes-Black.woff") format("woff"),
-       url("../assets/fonts/Ribes-Black.woff2") format("woff2");
+  font-family: "HastaFree";
+  src: url("../project 2/fonts/HastaFree-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: "SurfingCapital";
-  src: url("../assets/fonts/SurfingCapital.woff") format("woff"),
-  	   url("../assets/fonts/SurfingCapital.woff2") format("woff2");
+  font-family: "CoalhandLukeTRIAL";
+  src: url("project3/founts/CoalhandLukeTRIAL.woff") format("woff"),
 }
+
 
 body {
 	background:linear-gradient( #fdbcbc85,#ff72a0);
+	opacity: 0.5;
+	margin:0;
+}
+
+.background {
+	margin: 0;
+	padding: 0;
+	background-image: url(pink.jpg);
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+	z-index: -1;
 }
 
 #container {
-	margin-left: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	min-width: 100vw;
+}
 
+#grid {
+	width: 800px;
+	height: 1200px;
+	border: 0px solid #ffdfdf;
+	background:linear-gradient( #ffdfdf8c,#ab9961b5, #254c277a);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	
 }
 
 
 h1 {
 	
-	font-family: Ribes-Black;
+	font-family: CoalhandLukeTRIAL;
 	background: none;
-	color: #ff65ac;
+	color: #610831;
 	font-size: 150px;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 8;
 }
 
 p {
-	font-family: Ribes-Black;
+	font-family: CoalhandLukeTRIAL;
 	color: white;
+	font-size: 50px;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 3;
+	grid-column-end: 8;
+}
+
+#exercises{
+	font-family:CoalhandLukeTRIAL;
+	color: #e4ff00;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 5;
+	grid-column-end: 7;
 	font-size: 30px;
 }
 
-h3 {
-	font-family:Ribes-Black;
-	color: #00ffc4;
+#projects
+{
+	font-family:CoalhandLukeTRIAL;
+	justify-content: center;
+	align-items: center;
+	color: #e4ff00;
+	grid-row-start: 5;
+	grid-row-end: 6;
+	grid-column-start: 5;
+	grid-column-end: 7;
+	font-size: 30px;
 }
 
-li {
-	list-style: none;
-	text-decoration: none;
-	font-family:Ribes-Black;
-	color: #00ffc4;
+#darkmode
+{
+	grid-row-start: 8;
+	grid-row-end: 9;
+	grid-column-start: 5;
+	grid-column-end: 6;
+	font-size: 20px;
 }
+
+
+li{
+	list-style: none;
+
+}
+li a 
+{
+	font-family:HastaFree;
+	color: #fff;
+	text-decoration: none;
+}
+
 
 h1{
  text-align: center;
@@ -70,14 +138,11 @@ h1:hover{
  color: white;
 }
 
-
 /* DARK MODE STYLES GO HERE */
 
 body.darkmode {
  background: black;
  color: white;
-
- /* redefine a CSS variable */
  --accent-color: rgb(0,255,0);
 }
 
